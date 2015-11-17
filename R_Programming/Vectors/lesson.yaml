@@ -13,22 +13,13 @@
   woule be a numeric variable. We shall learn about this by creating one ourselves.'
   
 - Class: text
-  Output: Variables are used to store data, whose value can be changed according to our need. 
-  Unique name given to variable (function and objects as well) is identifier.
+  Output: Variables are used to store data, whose value can be changed according to our need. Unique name given to variable (function and objects as well) is identifier.
   
 - Class: text
-  Output: Let us create a numeric variable "x" with values 12,21,33,14,55. 
-  We are going to use x and assign these numbers to it. 
-  Now I know you must be asking as to how to put all numbers in one variable?
-  Let me introduce 'Vector' to you. (this is not a mathematical vector)
-  You will know more about these in Data types.
-  so you may have a variable with just value, or a string of values separated with coma.
-  Just know this for now. You will explore more about vectors later.
-  In R, assignment operator is '<-' or '='. But '<-' is preferred. 
-  Think of it as an arrow shooting data into the vector.
+  Output: Let us create a numeric variable "x" with values 12,21,33,14,55.  We are going to use x and assign these numbers to it. Now I know you must be asking as to how to put all numbers in one variable? Let me introduce 'Vector' to you. (this is not a mathematical vector) You will know more about these in Data type so you may have a variable with just value, or a string of values separated with coma. Just know this for now. You will explore more about vectors later. In R, assignment operator is '<-' or '='. But '<-' is preferred. Think of it as an arrow shooting data into the vector.
 
 - Class: cmd_question
-  Output: Type 'x <- c(12,21,33,14,55)'    We shall talk to you about 'c' in a bit.
+  Output: Type 'x <- c(12,21,33,14,55)'   (We shall talk to you about 'c' in a bit.)
   CorrectAnswer: x <- c(12,21,33,14,55)
   AnswerTests: omnitest(correctExpr='x <- c(12,21,33,14,55)')
   Hint: Well you dont have to think much here. Just type in exactly the way instructed to do.
@@ -40,17 +31,13 @@
   Hint: Assigning is similar to the one we did for x. And since we are just using 1 numeric, we do no need to use c()
 
 - Class: cmd_question
-  Output: Lets create a sum of all the numbers in x and store it in z.
-  Here we can use the function sum(). And sum(x) will give you the sum of all numbers.
+  Output: Lets create a sum of all the numbers in x and store it in z. Here we can use the function sum(). And sum(x) will give you the sum of all numbers.
   CorrectAnswer: z <- sum(x)
   AnswerTests: omnitest(correctExpr='z <- sum(x)')
   Hint: You only have to assign the sum(x) to z. Use the assigning operator.
 
 - Class: text
-  Output: We want to figure out if the sum of numbers in x is greater than y.
-  To this we shall introduce to 'Logical' operators. Logical operators are comparative operators.
-  To enlist, they are '>' greater ,'<' lesser ,'==' equal to, '!=' NOT equal to, '|' OR, '&' AND.
-  They give answers in TRUE or FALSE. So if you ask if 10 > 7, it will return TRUE.
+  Output: We want to figure out if the sum of numbers in x is greater than y. To this we shall introduce to 'Logical' operators. Logical operators are comparative operators. To enlist, they are '>' greater ,'<' lesser ,'==' equal to, '!=' NOT equal to, '|' OR, '&' AND. They give answers in TRUE or FALSE. So if you ask if 10 > 7, it will return TRUE.
 
 - Class: cmd_question
   Output: Try to find if sum of x (which you put in z) is greater than y
